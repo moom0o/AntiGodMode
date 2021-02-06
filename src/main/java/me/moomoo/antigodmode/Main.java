@@ -26,7 +26,7 @@ import java.util.HashMap;
     Added PositionLook packet to prevent one of the godmode bypasses.
  */
 
-class Main extends JavaPlugin implements Listener {
+public class Main extends JavaPlugin implements Listener {
 
     public HashMap<Player, Integer> a = new HashMap<Player, Integer>();
     public HashMap<Player, Integer> b = new HashMap<Player, Integer>();
